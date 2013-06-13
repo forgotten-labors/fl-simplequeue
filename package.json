@@ -1,0 +1,41 @@
+{
+  "name": "fl-simplequeue",
+  "version": "0.0.2-flab-1",
+  "description": "Simple in-memory distributed queue for Node.js",
+  "files": [
+    ".gitignore",
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit ./node_modules/simplequeue/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forgotten-labors/fl-simplequeue.git"
+  },
+  "dependencies": {
+    "simplequeue": "*"
+  },
+  "devDependencies": {
+    "nodeunit": ">= 0.7.4",
+    "utest": "*"
+  },
+  "keywords": [
+    "queue",
+    "in-memory",
+    "non-persistant",
+    "store",
+    "local",
+    "remote",
+    "server"
+  ],
+  "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)",
+  "contributors": [
+    "Alexander 'yumitsu' Zinchenko <yumitsu@mouseed.com> (https://github.com/yumitsu/)",
+    "Forgotten Labors Initiative <forlab-public@mouseed.com> (https://github.com/forgotten-labors)"
+  ],
+  "license": "BSD"
+}

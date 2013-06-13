@@ -1,0 +1,4 @@
+test/*
+_*.*
+node_modules
+test-helper.js
